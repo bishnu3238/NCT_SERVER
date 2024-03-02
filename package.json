@@ -4,7 +4,7 @@
   "description": "The official server of NCT, built using node and express.",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "node server.js"
   },
   "keywords": [
     "NCT"
