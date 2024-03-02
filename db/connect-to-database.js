@@ -4,7 +4,7 @@ const generateConnectionUrl = require("../src/connection-url-generator")
 dotenv.config()
 
 
-const mongoURI = process.env.NCT_DATABASE_URL;
+const mongoURI = "mongodb+srv://admin:maNoS8EHxHHP701M@nct-database-1.m4c8lwa.mongodb.net/?retryWrites=true&w=majority&appName=NCT-Database-1";
 const connection_string = generateConnectionUrl(58)
 
 
