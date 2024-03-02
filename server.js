@@ -39,5 +39,5 @@ const server = http.createServer(app);
 
 server.listen(port, () => {
     console.log("X--- NCT server succesfully running ---X");
-    console.log(`X--- NCT server connection key: ${connection_string} ---X`);
+    console.log(`X--- NCT server connection key: ${port} ---X`);
 });
